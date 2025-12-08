@@ -12,7 +12,7 @@ const VCHART_TEMPLATE = `<!DOCTYPE html>
   <style>
     html,body{margin:0;padding:0;}
   </style>
-  <script src="https://unpkg.com/@visactor/vchart@2.0.10/build/index.min.js"></script>
+  <script src="https://unpkg.com/@visactor/vchart/build/index.min.js"></script>
 </head>
 <body>
   <div id="chart"></div>
