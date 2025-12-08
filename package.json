@@ -1,0 +1,40 @@
+{
+  "name": "vchart-mcp-server-export",
+  "version": "1.0.0",
+  "description": "VChart MCP Server Export Service",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "vchart",
+    "export",
+    "chart",
+    "image",
+    "html"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/koa-static": "^4.0.4",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "koa-static": "^5.0.0",
+    "puppeteer": "^21.6.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.12",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/node": "^20.10.5",
+    "@types/uuid": "^9.0.7",
+    "axios": "^1.13.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
