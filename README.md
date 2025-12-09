@@ -54,9 +54,8 @@ Export a chart based on the provided specification.
 {
   success: boolean;
   data: {
-    url: string;      // URL to access the exported file
-    filePath: string; // Local file path
-    type: 'image' | 'html';
+    imageUrl: string; // URL to access the exported image file
+    htmlUrl: string; // URL to access the exported HTML file (only for HTML export)
   }
 }
 ```
